@@ -4,7 +4,7 @@
       nav: false,
       dots: true,
       loop: true,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout:2000,
       autoplayHoverPause:true,
 
