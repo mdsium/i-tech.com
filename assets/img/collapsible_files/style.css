@@ -1,0 +1,48 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+body{}
+.section-bg-1:after{background-image: url(./assets/img/1.jpg);background-size: cover;background-position: center;background-color: #dddddd;height: 100%;width: 48%;content: "";position: absolute;left: 0;top: 0;}
+.section-bg-1{ position: relative;}
+h2.section-title{ font-weight: 700;text-transform: uppercase; font-size: 35px; color: #333333;}
+.section-title span{color : #18b5fd;}
+.styled-faq .panel-default >.panel-heading{ border: none; border-radius: 0; background: none; padding: 0px;}
+.styled-faq .panel .panel-collapse .panel-body{ border: none ; color: #a9a9a9; font-size: 15px; line-height: 1.7;}
+.styled-faq .panel-group .panel{ border-radius: 0; box-shadow: 0 0 0; margin-bottom: 15px;}
+.styled-faq .panel .panel-heading h4 a { display: block; padding: 15px; position: relative;color: cornflowerblue;
+    font-weight: bold;}
+.styled-faq .panel .panel-heading h4 a i.fa { display: none; float: right; font-size: 150%; line-height: 15px;  }
+.styled-faq .panel .panel-heading h4 a[aria-expanded=true] i.fa-angle-down{display: block;} 
+.styled-faq .panel .panel-heading h4 a[aria-expanded=false] i.fa-angle-up{display: block;} 
+.section-padding{padding: 25px 0; margin-top: 35px;}
+.styled-faq {min-height: 440px;margin-top: 25px;}
+
+
